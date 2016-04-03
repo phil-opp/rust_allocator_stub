@@ -2,5 +2,11 @@
 name = "allocator_stub"
 version = "0.1.0"
 authors = ["Philipp Oppermann <dev@phil-opp.com>"]
+license = "Apache-2.0/MIT"
+
+description = "This custom allocator contains forward references for the `__rust_allocate`, `__rust_deallocate`, `__rust_reallocate`, `__rust_reallocate_inplace`, and `__rust_usable_size` functions. It can be used to define the allocation functions in crates that depend on liballoc."
+keywords = ["allocator", "no_std", "kernel"]
+
+repository = "https://github.com/phil-opp/rust_allocator_stub"
 
 [dependencies]
