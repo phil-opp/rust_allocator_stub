@@ -9,6 +9,9 @@ keywords = ["allocator", "no_std", "kernel"]
 
 repository = "https://github.com/phil-opp/rust_allocator_stub"
 
+[lib]
+name = "alloc_system"
+
 [features]
 
 default = []
